@@ -3,7 +3,7 @@ StartReading(book,
   //resolve() for StartReading
   () => {
     console.log(' нигу начал читать ' + book.name);
-
+ 
     StopReadingBook(book,
       //resolve() for StopReadingBook
       () => {
